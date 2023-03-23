@@ -3,7 +3,7 @@
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
   --third-background-color: #f7f7f7;
-  --primary-color: #000;
+  --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
@@ -11,7 +11,7 @@
   --default-text-color: #373d3f;
   --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
-  --selection-color: #1a1a1a;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
   --shadow-color-2: rgba(0,0,0,0.05);
   --shadow-hover-color: rgba(0,0,0,0.28);
@@ -48,7 +48,7 @@
     --background-color-transparent: rgba(255,255,255,0.6);
     --second-background-color: #fafafa;
     --third-background-color: #f7f7f7;
-    --primary-color: #000;
+    --primary-color: #005080;
     --first-text-color: #323739;
     --second-text-color: #343a3c;
     --third-text-color: #5c6669;
@@ -56,7 +56,7 @@
     --default-text-color: #373d3f;
     --invert-text-color: #bebec6;
     --border-color: #b3b3b3;
-    --selection-color: #1a1a1a;
+    --selection-color: #0068a6;
     --shadow-color-1: rgba(0,0,0,0.08);
     --shadow-color-2: rgba(0,0,0,0.05);
     --shadow-hover-color: rgba(0,0,0,0.28);
@@ -94,7 +94,7 @@
     --background-color-transparent: rgba(32,33,36,0.4);
     --second-background-color: #242529;
     --third-background-color: #292b2f;
-    --primary-color: #000;
+    --primary-color: #005080;
     --first-text-color: #d2d2d7;
     --second-text-color: #cbcbd1;
     --third-text-color: #9595a2;
@@ -102,7 +102,7 @@
     --default-text-color: #bebec6;
     --invert-text-color: #373d3f;
     --border-color: #4a4c53;
-    --selection-color: #1a1a1a;
+    --selection-color: #0068a6;
     --shadow-color-1: rgba(255,255,255,0.08);
     --shadow-color-2: rgba(255,255,255,0.05);
     --shadow-hover-color: rgba(69,69,69,0.28);
@@ -123,7 +123,7 @@
     --note-type-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --first-screen-img: url("/images/dark.jpg");
+    --first-screen-img: url("/images/wallhaven-wqery6-dark.webp");
     --first-screen-text-color: #d1d1b6;
     --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
     --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -139,7 +139,7 @@
   --background-color-transparent: rgba(255,255,255,0.6);
   --second-background-color: #fafafa;
   --third-background-color: #f7f7f7;
-  --primary-color: #000;
+  --primary-color: #005080;
   --first-text-color: #323739;
   --second-text-color: #343a3c;
   --third-text-color: #5c6669;
@@ -147,7 +147,7 @@
   --default-text-color: #373d3f;
   --invert-text-color: #bebec6;
   --border-color: #b3b3b3;
-  --selection-color: #1a1a1a;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(0,0,0,0.08);
   --shadow-color-2: rgba(0,0,0,0.05);
   --shadow-hover-color: rgba(0,0,0,0.28);
@@ -183,7 +183,7 @@
   --background-color-transparent: rgba(32,33,36,0.4);
   --second-background-color: #242529;
   --third-background-color: #292b2f;
-  --primary-color: #000;
+  --primary-color: #005080;
   --first-text-color: #d2d2d7;
   --second-text-color: #cbcbd1;
   --third-text-color: #9595a2;
@@ -191,7 +191,7 @@
   --default-text-color: #bebec6;
   --invert-text-color: #373d3f;
   --border-color: #4a4c53;
-  --selection-color: #1a1a1a;
+  --selection-color: #0068a6;
   --shadow-color-1: rgba(255,255,255,0.08);
   --shadow-color-2: rgba(255,255,255,0.05);
   --shadow-hover-color: rgba(69,69,69,0.28);
@@ -212,7 +212,7 @@
   --note-type-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --first-screen-img: url("/images/dark.jpg");
+  --first-screen-img: url("/images/wallhaven-wqery6-dark.webp");
   --first-screen-text-color: #d1d1b6;
   --first-screen-icons-container-border-color: rgba(197,197,197,0.35);
   --first-screen-icons-container-background-color: rgba(197,197,197,0.3);
@@ -386,8 +386,8 @@ body {
   background: var(--background-color);
   font-family: Open Sans, Noto Sans, Noto Sans SC, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial;
   font-weight: 400;
-  font-size: 15.2px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -397,15 +397,15 @@ body::-webkit-scrollbar {
 @media (max-width: 780px) {
   html,
   body {
-    font-size: 14.591999999999999px;
-    line-height: 21.119999999999997px;
+    font-size: 15.36px;
+    line-height: 1.44;
   }
 }
 @media (max-width: 500px) {
   html,
   body {
-    font-size: 13.68px;
-    line-height: 19.8px;
+    font-size: 14.4px;
+    line-height: 1.35;
   }
 }
 ::selection {
